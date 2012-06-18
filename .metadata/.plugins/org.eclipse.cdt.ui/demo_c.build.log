@@ -1,0 +1,26 @@
+
+**** Build of configuration Debug for project demo_c ****
+
+make all 
+Building file: ../test.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:5:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../test.c:5:17: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../test.c:7:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../test.c:7:2: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+Finished building: ../test.c
+../test.c:7:2: warning: statement with no effect [-Wunused-value]
+ 
+../test.c:9:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+Building target: demo_c
+../test.c:9:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Invoking: Cross GCC Linker
+gcc  -o "demo_c"  ./test.o   
+../test.c:13:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../test.c:13:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building target: demo_c
+ 
+
+**** Build Finished ****

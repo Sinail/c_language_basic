@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void) {
+	char source[] = "Str1";
+	char destination[40];
+
+
+	return 0;
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+	char src[] = "Str1";
+	char dest[40];
+
+	void * memcpy(void *dest_p, const void *src_p, size_t n);
+
+	memcpy(dest, src, strlen(src));
+
+	puts(dest);
+	return 0;
+}

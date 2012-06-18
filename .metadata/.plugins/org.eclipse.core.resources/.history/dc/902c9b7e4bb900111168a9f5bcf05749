@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void) {
+	char str1[] = "Str1";
+	char str2[40];
+
+
+	puts(str2);
+	return 0;
+}

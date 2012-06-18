@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(void) {
+	char src[] = "source";
+	char dest[10];
+
+	int result = 0;
+
+	result = memcpy(dest, src, strlen(src));
+
+	printf("dest: %s, result: %d", dest, result);
+
+	return 0;
+}

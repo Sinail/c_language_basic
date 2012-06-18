@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+	char str1[] = "Str1";
+	char str2[40];
+	char str3[40];
+
+	memcpy(str2, str1, strlen(str1) + 1);
+	memcpy(str3, "copy succesful", 16);
+
+	return 0;
+}

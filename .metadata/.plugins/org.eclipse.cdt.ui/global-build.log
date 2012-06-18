@@ -1,0 +1,695 @@
+
+**** Build of configuration Debug for project demo_c ****
+
+make all 
+Building file: ../test.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+Finished building: ../test.c
+ 
+Building target: demo_c
+Invoking: Cross GCC Linker
+gcc  -o "demo_c"  ./test.o   
+Finished building target: demo_c
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project demo_c ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project demo_c ****
+
+make all 
+Building file: ../test.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:8:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../test.c:8:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../test.c:8:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../test.c:8:21: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+Finished building: ../test.c
+ 
+Building target: demo_c
+Invoking: Cross GCC Linker
+gcc  -o "demo_c"  ./test.o   
+Finished building target: demo_c
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project demo_c ****
+
+make all 
+Building file: ../test.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:9:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../test.c:9:20: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+Finished building: ../test.c
+ 
+Building target: demo_c
+Invoking: Cross GCC Linker
+gcc  -o "demo_c"  ./test.o   
+Finished building target: demo_c
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project demo_c ****
+
+make all 
+Building file: ../test.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:9:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../test.c:9:11: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../test.c:9:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../test.c:9:29: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+../test.c:9:9: warning: assignment makes integer from pointer without a cast [enabled by default]
+Finished building: ../test.c
+ 
+Building target: demo_c
+Invoking: Cross GCC Linker
+gcc  -o "demo_c"  ./test.o   
+Finished building target: demo_c
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project demo_c ****
+
+make all 
+Building file: ../test.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:8:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../test.c:8:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../test.c:8:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../test.c:8:20: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+../test.c:10:39: error: ‘result’ undeclared (first use in this function)
+../test.c:10:39: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [test.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project demo_c ****
+
+make all 
+Building file: ../test.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:8:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../test.c:8:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../test.c:8:15: error: ‘src’ undeclared (first use in this function)
+../test.c:8:15: note: each undeclared identifier is reported only once for each function it appears in
+../test.c:8:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../test.c:8:20: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+../test.c:4:8: warning: unused variable ‘src_p’ [-Wunused-variable]
+make: *** [test.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project demo_c ****
+
+make all 
+Building file: ../test.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:8:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../test.c:8:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../test.c:8:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../test.c:8:22: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+../test.c:8:29: error: ‘src’ undeclared (first use in this function)
+../test.c:8:29: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [test.o] Error 1
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project demo_c ****
+
+make all 
+Building file: ../test.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:8:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../test.c:8:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+../test.c:8:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../test.c:8:22: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+Finished building: ../test.c
+ 
+Building target: demo_c
+Invoking: Cross GCC Linker
+gcc  -o "demo_c"  ./test.o   
+Finished building target: demo_c
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project demo_c ****
+
+make all 
+Building file: ../test.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"test.d" -MT"test.d" -o "test.o" "../test.c"
+../test.c: In function ‘main’:
+../test.c:5:2: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+../test.c:5:17: warning: incompatible implicit declaration of built-in function ‘malloc’ [enabled by default]
+../test.c:7:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../test.c:7:2: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+Finished building: ../test.c
+../test.c:7:2: warning: statement with no effect [-Wunused-value]
+ 
+../test.c:9:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+Building target: demo_c
+../test.c:9:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Invoking: Cross GCC Linker
+gcc  -o "demo_c"  ./test.o   
+../test.c:13:2: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+../test.c:13:2: warning: incompatible implicit declaration of built-in function ‘free’ [enabled by default]
+Finished building target: demo_c
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project c_api ****
+
+make clean 
+rm -rf  ./test.o  ./test.d  demo_c
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘memcpy_test’:
+../main.c:7:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../main.c:7:2: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+../main.c:7:2: warning: statement with no effect [-Wunused-value]
+../main.c:8:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../main.c:8:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Finished building: ../main.c
+ 
+Building target: c_api
+Invoking: Cross GCC Linker
+gcc  -o "c_api"  ./main.o   
+Finished building target: c_api
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project main ****
+
+make clean 
+rm -rf  ./main.o  ./main.d  c_api
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project main ****
+
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘memcpy_test’:
+../main.c:7:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../main.c:7:2: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+../main.c:7:2: warning: statement with no effect [-Wunused-value]
+../main.c:8:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+Finished building: ../main.c
+../main.c:8:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+ 
+Building target: main
+Invoking: Cross GCC Linker
+gcc  -o "main"  ./main.o   
+Finished building target: main
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project c_api ****
+
+make clean 
+rm -rf  ./main.o  ./main.d  main
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project c_api ****
+
+make clean 
+rm -rf  ./main.o  ./main.d  main
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘memcpy_test’:
+../main.c:7:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../main.c:7:2: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+../main.c:7:2: warning: statement with no effect [-Wunused-value]
+Finished building: ../main.c
+../main.c:8:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+ 
+../main.c:8:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Building target: c_api
+Invoking: Cross GCC Linker
+gcc  -o "c_api"  ./main.o   
+Finished building target: c_api
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+Building file: ../main.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.c"
+../main.c: In function ‘memcpy_test’:
+../main.c:7:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../main.c:7:2: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+../main.c:7:2: warning: statement with no effect [-Wunused-value]
+../main.c:8:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+../main.c:8:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Finished building: ../main.c
+ 
+Building target: c_api
+Invoking: Cross GCC Linker
+gcc  -o "c_api"  ./main.o   
+Finished building target: c_api
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+Building file: ../src/c_api.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_api.d" -MT"src/c_api.d" -o "src/c_api.o" "../src/c_api.c"
+../src/c_api.c: In function ‘memcpy_test’:
+../src/c_api.c:16:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+../src/c_api.c:16:2: warning: incompatible implicit declaration of built-in function ‘strlen’ [enabled by default]
+../src/c_api.c:16:2: warning: statement with no effect [-Wunused-value]
+Finished building: ../src/c_api.c
+../src/c_api.c:17:2: warning: implicit declaration of function ‘memcpy’ [-Wimplicit-function-declaration]
+ 
+../src/c_api.c:17:2: warning: incompatible implicit declaration of built-in function ‘memcpy’ [enabled by default]
+Building target: c_api
+Invoking: GCC C Linker
+gcc  -o "c_api"  ./src/c_api.o   
+Finished building target: c_api
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+Building file: ../src/c_api.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_api.d" -MT"src/c_api.d" -o "src/c_api.o" "../src/c_api.c"
+Finished building: ../src/c_api.c
+ 
+Building target: c_api
+Invoking: GCC C Linker
+gcc  -o "c_api"  ./src/c_api.o   
+Finished building target: c_api
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+Building file: ../src/c_api.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_api.d" -MT"src/c_api.d" -o "src/c_api.o" "../src/c_api.c"
+Finished building: ../src/c_api.c
+ 
+Building target: c_api
+Invoking: GCC C Linker
+gcc  -o "c_api"  ./src/c_api.o   
+Finished building target: c_api
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+Building file: ../src/c_demo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_demo.d" -MT"src/c_demo.d" -o "src/c_demo.o" "../src/c_demo.c"
+Finished building: ../src/c_demo.c
+ 
+Building target: c_demo
+Invoking: GCC C Linker
+gcc  -o "c_demo"  ./src/c_demo.o   
+Finished building target: c_demo
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: c_demo
+Invoking: GCC C Linker
+gcc  -o "c_demo"  ./src/main.o   
+Finished building target: c_demo
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project c_api ****
+
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  c_demo
+ 
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project c_api ****
+
+make clean 
+rm -rf  ./src/main.o  ./src/main.d  c_demo
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+Building file: ../src/c_api.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_api.d" -MT"src/c_api.d" -o "src/c_api.o" "../src/c_api.c"
+Finished building: ../src/c_api.c
+ 
+Building target: c_api
+Invoking: GCC C Linker
+gcc  -o "c_api"  ./src/c_api.o   
+Finished building target: c_api
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Debug for project c_demo ****
+
+make clean 
+rm -rf  ./src/c_api.o  ./src/c_api.d  c_api
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+Building file: ../src/c_demo.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/c_demo.d" -MT"src/c_demo.d" -o "src/c_demo.o" "../src/c_demo.c"
+Finished building: ../src/c_demo.c
+ 
+Building target: c_demo
+Invoking: GCC C Linker
+gcc  -o "c_demo"  ./src/c_demo.o   
+Finished building target: c_demo
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project c_demo ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Api ****
+
+make all 
+Building file: ../src/C_Api.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/C_Api.d" -MT"src/C_Api.d" -o "src/C_Api.o" "../src/C_Api.c"
+Finished building: ../src/C_Api.c
+ 
+Building target: C_Api
+Invoking: GCC C Linker
+gcc  -o "C_Api"  ./src/C_Api.o   
+Finished building target: C_Api
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Api ****
+
+make all 
+Building file: ../src/main.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building target: C_Api
+Invoking: GCC C Linker
+gcc  -o "C_Api"  ./src/main.o   
+Finished building target: C_Api
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project C_Api ****
+
+make all 
+make: Nothing to be done for `all'.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project C_Api ****
+
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project C_Api ****
+
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project C_Api ****
+
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project C_Api ****
+
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project C_Api ****
+
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+**** Build Finished ****
+
+**** Clean-only build of configuration Default for project C_Api ****
+
+make clean 
+make: *** No rule to make target `clean'.  Stop.
+
+**** Build Finished ****
+
+**** Build of configuration Default for project C_Api ****
+
+make all 
+make: *** No rule to make target `all'.  Stop.
+
+**** Build Finished ****

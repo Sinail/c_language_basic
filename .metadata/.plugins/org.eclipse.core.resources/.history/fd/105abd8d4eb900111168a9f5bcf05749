@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+	char *src_p = "source";
+	char *dest_p = malloc(10);
+
+	strlen(src_p);
+
+	memcpy(dest_p, src_p, strlen(src_p));
+
+	puts(dest_p);
+
+	free(dest_p);
+
+	return 0;
+}

@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void) {
+	char *src_p = "source";
+	char dest[10];
+
+
+	memcpy(dest, src, strlen(src));
+
+	puts(dest);
+
+	return 0;
+}
